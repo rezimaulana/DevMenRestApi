@@ -56,4 +56,8 @@ pull mongoose library
 create schema database
 export module with mongoose method
 =========================> add commit create model for the application to interact with the database
+-routes/subscribers.js
+include models in routes to be pull
+create get all route using async await try catch
+=========================> add commit create get all route push
 
