@@ -67,4 +67,8 @@ fix misspell on subscriberToChannel to subscribedToChannel
 -api.rest
 test send request to create one
 =========================> add commit route to create one
-
+-routes/subscribers.js
+all the rest of the routes are going to be take an id for params they are going to do the same exact code at the beginning
+create function middleware for update delete get one
+change the get one routes to test
+=========================> add commit middleware for params :id push

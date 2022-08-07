@@ -2,7 +2,7 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/12
+GET http://localhost:3000/subscribers/62eff70c38359fcaa51105ca
 
 ###
 
@@ -10,6 +10,6 @@ POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-    "name": "Amazing Person",
+    "name": "Rezi",
     "subscribedToChannel": "Web Dev Simplified"
 }
