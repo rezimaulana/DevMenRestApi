@@ -51,4 +51,9 @@ test send request get one
 -routes/subscribers.js
 create response route get all to return dummy params requested
 =========================> add commit test with file api.rest with extensiont rest client push
+-models/subscribers.js
+pull mongoose library
+create schema database
+export module with mongoose method
+=========================> add commit create model for the application to interact with the database
 
