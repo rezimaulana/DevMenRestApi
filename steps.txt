@@ -26,3 +26,14 @@ declare .env library call config to load all environment variabel from .env file
 -.env
 create a variabel for database paste db uri from server.js
 =========================> add commit database completely done
+-server.js
+setup server to accept JSON middleware is code that runs when the server gets a request but before it get passed to your routes
+we want to use express.json and lets our server accept json as a body instead of POST element or get element 
+require routes on server.js and create routes for our server (file and folder)
+tell our app that we want to use that routes
+-routes/subscribers.js
+it requires middleware so set that up first
+pull express library
+pull express router
+export the that with module.export
+=========================> add commit setup server to accept json and create dummy routes push
