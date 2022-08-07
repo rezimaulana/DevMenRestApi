@@ -20,3 +20,9 @@ create variabel db to configure database
 hook some events to run to check db is connected properly and show Error
 show if success connected
 =========================> add commit try connect from mongoose to mongodb atlas
+-server.js
+cut db uri to .env replace with .env variabel
+declare .env library call config to load all environment variabel from .env file
+-.env
+create a variabel for database paste db uri from server.js
+=========================> add commit database completely done
