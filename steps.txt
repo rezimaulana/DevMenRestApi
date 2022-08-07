@@ -82,3 +82,10 @@ create delete one route using async await try catch
 -api.rest
 test delete one route
 =========================> add commit create delete one route
+-routes/subscribers.js
+create delete one route using async await try catch
+check if body not null and then patch it
+async function dont forget
+-api.rest
+test patch one route
+=========================> add commit create patch one route
