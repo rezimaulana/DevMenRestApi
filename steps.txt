@@ -60,4 +60,11 @@ export module with mongoose method
 include models in routes to be pull
 create get all route using async await try catch
 =========================> add commit create get all route push
+-routes/subscribers.js
+make route to create one using async await try catch
+-models/subscribers.js
+fix misspell on subscriberToChannel to subscribedToChannel
+-api.rest
+test send request to create one
+=========================> add commit route to create one
 
