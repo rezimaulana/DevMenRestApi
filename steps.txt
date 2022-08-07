@@ -37,11 +37,18 @@ pull express library
 pull express router
 export the that with module.export
 =========================> add commit setup server to accept json and create dummy routes push
-create dummy restful endpoints to get one
+-routes/subscribers.js
 create dummy restful endpoints to get all
+create dummy restful endpoints to get one
 create dummy restful endpoints to create one
 create dummy restful endpoints to patch one
 create dummy restful endpoints to delete one
-test route with dummy text hello world
+create response route get all with dummy text hello world
 =========================> add commit configure routes to be restful api
+-api.rest
+test send request get all
+test send request get one
+-routes/subscribers.js
+create response route get all to return dummy params requested
+=========================> add commit test with file api.rest with extensiont rest client push
 

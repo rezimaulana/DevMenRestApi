@@ -1,14 +1,14 @@
 const express = require('express')
 const router = express.Router()
 
-//get one
+//get all
 router.get('/', (req, res) => {
     res.send('Hello, World!')
 })
 
-//get all
+//get one
 router.get('/:id', (req, res) => {
-    
+    res.send(req.params.id)
 })
 
 //create one
