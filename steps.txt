@@ -1,0 +1,10 @@
+create repository in github
+clone
+add git ignore for node_modules(can be npm install) and .env
+npm init
+npm i express mongoose
+npm i --save-dev dotenv nodemon
+remove test script and add dev script "test": "echo \"Error: no test specified\" && exit 1" -> "devStart": "nodemon server.js"
+add server.js file
+add .env
+=========================> add commit push
