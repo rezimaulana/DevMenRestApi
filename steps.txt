@@ -11,4 +11,12 @@ add .env
 -server.js
 pull express library
 create app variabel that we can use to configure server
+make app listen
 =========================> add commit startup server using nodemon
+-server.js
+pull mongoose library
+configure mongoose to connect mongodb use new url parser
+create variabel db to configure database
+hook some events to run to check db is connected properly and show Error
+show if success connected
+=========================> add commit try connect from mongoose to mongodb atlas
