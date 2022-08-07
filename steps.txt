@@ -72,3 +72,7 @@ all the rest of the routes are going to be take an id for params they are going 
 create function middleware for update delete get one
 change the get one routes to test
 =========================> add commit middleware for params :id push
+-routes/subscribers.js
+add your middleware function to get update delete one
+modify your get one route
+=========================> add commit create get one route

@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
 
 //get one
 router.get('/:id', getSubscriber, (req, res) => {
-    res.send(res.subscriber.name)
+    res.json(res.subscriber)
 })
 
 //create one
@@ -38,12 +38,12 @@ router.post('/', async (req, res) => {
 //update one
 //patch update half
 //put update all
-router.patch('/:id', (req, res) => {
+router.patch('/:id', getSubscriber, (req, res) => {
     
 })
 
 //delete one
-router.delete('/:id', (req, res) => {
+router.delete('/:id',  getSubscriber, (req, res) => {
     
 })
 
