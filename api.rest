@@ -10,6 +10,10 @@ POST http://localhost:3000/subscribers
 Content-Type: application/json
 
 {
-    "name": "Rezi",
+    "name": "Fidya",
     "subscribedToChannel": "Web Dev Simplified"
 }
+
+###
+
+DELETE http://localhost:3000/subscribers/62eff70c38359fcaa51105ca

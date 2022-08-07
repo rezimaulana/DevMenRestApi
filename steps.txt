@@ -74,5 +74,11 @@ change the get one routes to test
 =========================> add commit middleware for params :id push
 -routes/subscribers.js
 add your middleware function to get update delete one
-modify your get one route
+create get one route using async await try catch
 =========================> add commit create get one route
+-routes/subscribers.js
+add your middleware function to get update delete one
+create delete one route using async await try catch
+-api.rest
+test delete one route
+=========================> add commit create delete one route
