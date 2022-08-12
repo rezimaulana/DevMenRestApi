@@ -1,2 +1,2 @@
-# simpleRestApiMen
-simple rest api mongo express node
+# DevMenRestApi
+Playground for testing Mongo, Express, Rest API
