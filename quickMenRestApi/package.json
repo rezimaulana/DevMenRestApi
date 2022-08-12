@@ -1,0 +1,27 @@
+{
+  "name": "simplerestapimen",
+  "version": "1.0.0",
+  "description": "simple rest api mongo express node",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezimaulana/simpleRestApiMen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rezimaulana/simpleRestApiMen/issues"
+  },
+  "homepage": "https://github.com/rezimaulana/simpleRestApiMen#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

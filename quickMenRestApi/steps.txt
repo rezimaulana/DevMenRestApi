@@ -1,0 +1,91 @@
+create repository in github
+clone
+add git ignore for node_modules(can be npm install) and .env
+npm init
+npm i express mongoose
+npm i --save-dev dotenv nodemon
+remove test script and add dev script "test": "echo \"Error: no test specified\" && exit 1" -> "devStart": "nodemon server.js"
+add server.js file
+add .env
+=========================> add commit first setup push
+-server.js
+pull express library
+create app variabel that we can use to configure server
+make app listen
+=========================> add commit startup server using nodemon
+-server.js
+pull mongoose library
+configure mongoose to connect mongodb use new url parser
+create variabel db to configure database
+hook some events to run to check db is connected properly and show Error
+show if success connected
+=========================> add commit try connect from mongoose to mongodb atlas
+-server.js
+cut db uri to .env replace with .env variabel
+declare .env library call config to load all environment variabel from .env file
+-.env
+create a variabel for database paste db uri from server.js
+=========================> add commit database completely done
+-server.js
+setup server to accept JSON middleware is code that runs when the server gets a request but before it get passed to your routes
+we want to use express.json and lets our server accept json as a body instead of POST element or get element 
+require routes on server.js and create routes for our server (file and folder)
+tell our app that we want to use that routes
+-routes/subscribers.js
+it requires middleware so set that up first
+pull express library
+pull express router
+export the that with module.export
+=========================> add commit setup server to accept json and create dummy routes push
+-routes/subscribers.js
+create dummy restful endpoints to get all
+create dummy restful endpoints to get one
+create dummy restful endpoints to create one
+create dummy restful endpoints to patch one
+create dummy restful endpoints to delete one
+create response route get all with dummy text hello world
+=========================> add commit configure routes to be restful api
+-api.rest
+test send request get all
+test send request get one
+-routes/subscribers.js
+create response route get all to return dummy params requested
+=========================> add commit test with file api.rest with extensiont rest client push
+-models/subscribers.js
+pull mongoose library
+create schema database
+export module with mongoose method
+=========================> add commit create model for the application to interact with the database
+-routes/subscribers.js
+include models in routes to be pull
+create get all route using async await try catch
+=========================> add commit create get all route push
+-routes/subscribers.js
+make route to create one using async await try catch
+-models/subscribers.js
+fix misspell on subscriberToChannel to subscribedToChannel
+-api.rest
+test send request to create one
+=========================> add commit route to create one
+-routes/subscribers.js
+all the rest of the routes are going to be take an id for params they are going to do the same exact code at the beginning
+create function middleware for update delete get one
+change the get one routes to test
+=========================> add commit middleware for params :id push
+-routes/subscribers.js
+add your middleware function to get update delete one
+create get one route using async await try catch
+=========================> add commit create get one route
+-routes/subscribers.js
+add your middleware function to get update delete one
+create delete one route using async await try catch
+-api.rest
+test delete one route
+=========================> add commit create delete one route
+-routes/subscribers.js
+create delete one route using async await try catch
+check if body not null and then patch it
+async function dont forget
+-api.rest
+test patch one route
+=========================> add commit create patch one route push
