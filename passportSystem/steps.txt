@@ -1,0 +1,15 @@
+Introduction to Node.js 6
+--------------------------
+npm init -y for default dependency
+npm i express ejs
+1st dependency framework
+2nd dependency ejs templating language for all different view
+dev dependecy npm i --save-dev nodemon dotenv
+nodemon restart server at save
+dotenv will let us have environment variabel inside dotenv file
+add .env
+add git ignore for node_modules(can be npm install) and .env
+setup packages.json
+remove test script and add dev script "test": "echo \"Error: no test specified\" && exit 1" -> "devStart": "nodemon server.js"
+create server.js
+=========================> add commit basic server setup push
