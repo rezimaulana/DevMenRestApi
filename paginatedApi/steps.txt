@@ -11,3 +11,13 @@ remove test script and add dev script "test": "echo \"Error: no test specified\"
 create server.js
 add gitignore
 =========================> add commit basic server configured push
+-server.js
+pull express library
+create app variabel to use express
+add port app listen
+create get users route and res.json
+create users variabel with 15 dummy data
+create request.rest
+-request.rest
+create get users route request
+=========================> add commit create dummy get users route
