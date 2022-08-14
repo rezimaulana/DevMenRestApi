@@ -22,3 +22,14 @@ create views/index.ejs
 -views/index.ejs
 test h1 hi
 =========================> add commit testing index.ejs
+-server.js
+tell server we using ejs
+test passing name variabel
+-views/index.ejs
+add name variabel
+add login.ejs
+add register.ejs
+-server.js
+add dummy render and route for login
+add dummy render and route for register
+=========================> add commit testing login and register push
