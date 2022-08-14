@@ -42,4 +42,24 @@ parse int var page and limit
 check if we have next or previous page if else
 put variabel results.next inside if else
 put add variabel results.previous if else
-=========================> add commit add step1 next and previous page push
+=========================> add commit step1 next and previous page push
+setup middleware
+-server.js
+create posts variabel with 15 dummy data
+create get posts route and res.json
+move app listen to very bottom
+create middleware paginated results all middleware use req res next
+middleware works executes before all the code inside our app
+copy paste for var pages to slice from users get route to middleware
+change every users to model
+save it to response middleware
+call next function
+delete all users get route code
+call middleware
+and use this to output res.json(res.paginatedResults)
+delete all posts get route code
+call middleware
+and use this to output res.json(res.paginatedResults)
+-request.rest
+test posts and users get
+=========================> add commit step2 middleware configured push
