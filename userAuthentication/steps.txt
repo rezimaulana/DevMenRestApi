@@ -20,3 +20,9 @@ create request.rest file
 create get request
 test users route
 =========================> add commit create get users route
+-server.js
+create post route users
+add app to use json library
+-request.rest
+create post request
+=========================> add commit create post users route
