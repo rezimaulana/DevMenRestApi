@@ -1,0 +1,13 @@
+Introduction to Node.js 7
+basic pagination inside api
+middleware to pagination
+hookup to database
+--------------------------
+npm init -y
+default setting
+npm i express
+npm i --save-dev nodemon
+remove test script and add dev script "test": "echo \"Error: no test specified\" && exit 1" -> "devStart": "nodemon server.js"
+create server.js
+add gitignore
+=========================> add commit basic server configured push
