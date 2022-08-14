@@ -1,7 +1,7 @@
 Introduction to Node.js 5
 --------------------------
 initialize npm init -y -y means default value
-npm i express bcrypt install express(server) and bycrpt(crypthography)
+npm i express bcrypt install express(server) and bcrypt(crypthography)
 install nodemon to restart after save
 npm i --save-dev nodemon install nodemon on dev dependency
 remove test script and add dev script "test": "echo \"Error: no test specified\" && exit 1" -> "devStart": "nodemon server.js"
@@ -25,4 +25,17 @@ create post route users
 add app to use json library
 -request.rest
 create post request
-=========================> add commit create post users route
+=========================> add commit create post users route push
+-server.js
+pull bcrypt library
+uses bcrypt to combine salt + password to get hashes password
+convert post users route to async
+uses try catch
+make salt variabel with around 10 the higger is better but the longer it takes default is 10
+await salt variabel
+make hash password variabel await
+move the rest to try block
+change user var to have hash password instead of body password
+add simple catch code 400 and send nothing
+test post and get route, salt and hash password
+=========================> add commit setup bcrypt route push
