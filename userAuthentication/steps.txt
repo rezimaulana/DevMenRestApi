@@ -39,3 +39,20 @@ change user var to have hash password instead of body password
 add simple catch code 400 and send nothing
 test post and get route, salt and hash password
 =========================> add commit setup bcrypt route push
+-server.js
+change bcrypt to one step hash and salt password
+remove console log
+-request.rest
+create post login request to match username and password
+-server.js
+create post login users route
+async to uses bcrypt which is async library
+create user variabel to search array
+create if to return 400 if null
+create try catch to matching password
+catch 500 status
+create try bcrypt compare for timing attack which is wait for that user to login
+await bcrypt compare
+check if else bcrypt compare
+if true thensuccess else not allowed
+=========================> add commit create post login user route push
