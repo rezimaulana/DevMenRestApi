@@ -10,6 +10,16 @@ create single function to call error
 add respon hello world to implement
 =========================> add commit hello world
 add index.html
-
+-index.html
+type ! it will generate html basic file
+type hello world inside body
+-app.js
+add status code 200 on write head
+add fs library from node js
+add fs read file with error and data params
+add error statement with 404
+add else write data
+move res end into fs callback
+=========================> add commit hello world html push
 
 
