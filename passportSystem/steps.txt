@@ -33,3 +33,13 @@ add register.ejs
 add dummy render and route for login
 add dummy render and route for register
 =========================> add commit testing login and register push
+-view/register.ejs
+create form post and navigation
+-view/login.ejs
+create form post and navigation
+-server.js
+create dummy post route register
+create dummy post route login
+we are getting information from forms app.use(express.urlencoded({extended: false}))
+it means take these forms from our email and password, we want to be able to access them inside our request variabel inside of our post method
+=========================> add commit create login and register form with setup express work
