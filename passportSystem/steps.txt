@@ -111,3 +111,11 @@ if (user == null) {
     return done(null, false, {message: 'No user with that email'})
 }
 =========================> add commit added finished login function push
+-passport-config.js
+rework on serialize
+rework on deserialize
+pass getuserbyid on initialize function
+-server.js
+define getuserbyid on initialize passport function
+app get index pass req.user.name
+=========================> add commit login success push
