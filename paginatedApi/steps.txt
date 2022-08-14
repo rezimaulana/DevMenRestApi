@@ -63,3 +63,23 @@ and use this to output res.json(res.paginatedResults)
 -request.rest
 test posts and users get
 =========================> add commit step2 middleware configured push
+setup mongoose
+npm i mongoose
+create users.js
+-users.js
+pull mongoose library
+create user schema variabel
+add validation input
+module exports
+required is true for schema
+-server.js
+hookup database
+pull mongoose library
+dev dependecy npm i --save-dev dotenv
+add dotenv
+check dotenv environment != production
+mongoose connect
+-.env
+add database url
+=========================> add commit step3 hookup database push
+

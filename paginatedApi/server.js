@@ -1,5 +1,13 @@
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config()
+}
+
 const express = require('express')
 const app = express()
+const mongoose = require('mongoose')
+const User = require('./users')
+
+mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true })
 
 const users = [
     {id: 1, name: 'User 1'},
