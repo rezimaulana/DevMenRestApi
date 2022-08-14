@@ -119,6 +119,7 @@ pass getuserbyid on initialize function
 define getuserbyid on initialize passport function
 app get index pass req.user.name
 =========================> add commit login success push
+-server.js
 create middleware function for check authenticated
 add check authenticated to get index route
 create middleware function for check not authenticated
@@ -127,3 +128,19 @@ add check not authenticated to post login route
 add check not authenticated to get register route
 add check not authenticated to post register route
 =========================> add commit authenticated and non authenticated logic push
+-server.js
+add return on middleware function for check not authenticated
+add logout function to redirect to login
+npm i method-override
+so we can call delete method without post
+pull out method override library
+app use method override
+pass _method to use
+on delete route req.redirect('/login') change to res.redirect('/login')
+-index.ejs
+add form logout to delete request using post
+-server.js
+Since passport version 0.6.0 (which was released only a few days ago by the time of writing this), req.logout is asynchronous.
+You will get the error: "req#logout requires a callback function." 
+To fix it, all you need to do is replace this logout route with async.
+=========================> add commit finished logout function push
