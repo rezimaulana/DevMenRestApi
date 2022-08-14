@@ -55,4 +55,59 @@ push form body
 success redirect login
 fail redirect register
 log console users
-=========================> add commit finish register function
+=========================> add commit finish register function push
+npm i passport passport-local express-session express-flash
+checking to make sure user name email pass are the same wasnt difficult
+but to actually persist that user across all different request it gets a little bit involved
+passport is used by everyone for authentication
+local passport version allow us to use username and <local> password for login 
+in order to store and persist our user across different pages we need to use something called session
+display message for if we fail to login install express flash which is used by passport inside the internal to display those nice handy messages for wrong email etc
+setup passport to working with login
+create passport-config.js
+-passport-config.js
+initialize passport
+-server.js
+pull passport library
+pull initialize passport from passport-config.js
+call function initialize passport
+-passport-config.js
+create variabel to pull local strategy passport
+use local strategy, pass option username field, pass function to authenticate
+create authenticate user function, pass email, password, done function
+call passport serialize user, pass user and done
+this is going to serialize our user to store inside of session
+make function to do opposite deserialize, pass id and done
+serialize user as a single id
+matches user password with input password pull bcrypt
+exports module
+work authenticate user make sure to add params getuserbyemail at initialize function
+-server.js
+add params email on initialize passport function
+pull express flash, app use express flash
+pull express session, app use express session
+session take couple params
+add session secret to .env
+load env variabel
+add session resave to false
+add seve uninitialize to false
+use app passport initialize
+use app passport session
+rework route post login to use passport library
+-views/login.ejs
+add variabel to show error
+-passport-config.js
+async on authenticateUser
+passport.use(new LocalStrategy({usernameField: 'email'}), authenticateUser)
+to
+passport.use(new LocalStrategy({usernameField: 'email'}, authenticateUser))
+var name is LocalStrategy
+<% messages.error %> replace with <%= messages.error %>
+if (user == null) {
+    return done(null, false, {mesage: 'No user with that email'})
+}
+replace with
+if (user == null) {
+    return done(null, false, {message: 'No user with that email'})
+}
+=========================> add commit added finished login function push
