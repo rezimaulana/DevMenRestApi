@@ -119,3 +119,11 @@ pass getuserbyid on initialize function
 define getuserbyid on initialize passport function
 app get index pass req.user.name
 =========================> add commit login success push
+create middleware function for check authenticated
+add check authenticated to get index route
+create middleware function for check not authenticated
+add check not authenticated to get login route
+add check not authenticated to post login route
+add check not authenticated to get register route
+add check not authenticated to post register route
+=========================> add commit authenticated and non authenticated logic push
