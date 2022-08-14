@@ -12,3 +12,11 @@ pull express library
 create app variabel that we can use to configure server
 make app listen
 =========================> add commit basic server configured push
+-server.js
+create get route users for response send user data
+create local variabel users
+create request.rest file
+-request.rest
+create get request
+test users route
+=========================> add commit create get users route
