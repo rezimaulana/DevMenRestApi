@@ -1,2 +1,14 @@
 Introduction to Node.js 5
 --------------------------
+initialize npm init -y -y means default value
+npm i express bcrypt install express(server) and bycrpt(crypthography)
+install nodemon to restart after save
+npm i --save-dev nodemon install nodemon on dev dependency
+remove test script and add dev script "test": "echo \"Error: no test specified\" && exit 1" -> "devStart": "nodemon server.js"
+add git ignore for node_modules(can be npm install) and .env
+create server.js
+-server.js
+pull express library
+create app variabel that we can use to configure server
+make app listen
+=========================> add commit basic server configured push
