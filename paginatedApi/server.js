@@ -7,9 +7,35 @@ const app = express()
 const mongoose = require('mongoose')
 const User = require('./users')
 
-mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true })
+mongoose.connect(process.env.DATABASE_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+const db = mongoose.connection
+db.once('open', async () => {
+    if(await User.countDocuments().exec() > 0) return
+    Promise.all([
+        User.create({name: 'User 1'}),
+        User.create({name: 'User 2'}),
+        User.create({name: 'User 3'}),
+        User.create({name: 'User 4'}),
+        User.create({name: 'User 5'}),
+        User.create({name: 'User 6'}),
+        User.create({name: 'User 7'}),
+        User.create({name: 'User 8'}),
+        User.create({name: 'User 9'}),
+        User.create({name: 'User 10'}),
+        User.create({name: 'User 11'}),
+        User.create({name: 'User 12'}),
+        User.create({name: 'User 13'}),
+        User.create({name: 'User 14'}),
+        User.create({name: 'User 15'}),
+        User.create({name: 'User 16'}),
+        User.create({name: 'User 17'}),
+        User.create({name: 'User 18'}),
+        User.create({name: 'User 19'}),
+        User.create({name: 'User 20'})
+    ]).then(() => console.log('Added Users'))
+})
 
-const users = [
+/* const users = [
     {id: 1, name: 'User 1'},
     {id: 2, name: 'User 2'},
     {id: 3, name: 'User 3'},
@@ -47,9 +73,9 @@ const posts = [
 
 app.get('/posts', paginatedResults(posts), (req, res) =>{
     res.json(res.paginatedResults)
-})
+}) */
 
-app.get('/users', paginatedResults(users), (req, res) =>{
+app.get('/users', paginatedResults(User), (req, res) =>{
     res.json(res.paginatedResults)
 })
 

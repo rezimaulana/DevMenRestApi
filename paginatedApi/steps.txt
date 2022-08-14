@@ -82,4 +82,13 @@ mongoose connect
 -.env
 add database url
 =========================> add commit step3 hookup database push
+-server.js
+delete user and post var and get route post
+dummy data change to user schema
+mongoose connect new url parser and unified technology
+add db variabel to use mongoose connection
+create once connect async function
+await if user > 0 data return
+create 20 users dummy data with promise all
+=========================> add commit database configured push
 
