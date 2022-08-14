@@ -91,4 +91,14 @@ create once connect async function
 await if user > 0 data return
 create 20 users dummy data with promise all
 =========================> add commit database configured push
-
+-server.js
+change middleware result.result to find limit parameter
+add try catch
+make var to await
+catch error
+move res paginatedResults
+make return async paginatedResults
+change count document to model.length
+-request.rest
+testing paginatedResults
+=========================> add commit middleware configured push

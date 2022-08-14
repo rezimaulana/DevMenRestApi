@@ -1,4 +1,12 @@
-GET http://localhost:3000/users?page=1&limit=5
+GET http://localhost:3000/users?page=1&limit=20
+
+###
+
+GET http://localhost:3000/users?page=1&limit=3
+
+###
+
+GET http://localhost:3000/users?page=7&limit=3
 
 ###
 
