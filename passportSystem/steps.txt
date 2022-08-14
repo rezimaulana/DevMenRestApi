@@ -42,4 +42,17 @@ create dummy post route register
 create dummy post route login
 we are getting information from forms app.use(express.urlencoded({extended: false}))
 it means take these forms from our email and password, we want to be able to access them inside our request variabel inside of our post method
-=========================> add commit create login and register form with setup express work
+=========================> add commit create login and register form with setup express work push
+npm i bcrypt
+pull bcrypt library
+-server.js
+add bcrypt library
+create users local variabel
+try catch on post register route
+convert it to async
+create await hashedpassword var and use bcrypt 10 default value
+push form body
+success redirect login
+fail redirect register
+log console users
+=========================> add commit finish register function
