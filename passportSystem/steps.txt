@@ -13,3 +13,12 @@ setup packages.json
 remove test script and add dev script "test": "echo \"Error: no test specified\" && exit 1" -> "devStart": "nodemon server.js"
 create server.js
 =========================> add commit basic server setup push
+-server.js
+variabel to pull express library
+variabel to run express library
+listen app server at 3000
+setup get route index.ejs
+create views/index.ejs
+-views/index.ejs
+test h1 hi
+=========================> add commit testing index.ejs
