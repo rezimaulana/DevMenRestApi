@@ -1,0 +1,10 @@
+add app.js file
+-app.js
+add http library from node js
+add port variabel
+add server variabel which have 2 params req and res
+setup server to listen on port 3000
+create single function to call error
+=========================> add commit setup function push
+
+
