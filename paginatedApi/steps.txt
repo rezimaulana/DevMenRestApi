@@ -29,3 +29,17 @@ add startindex and endindex
 add variabel to slice it with startindex and endindex
 return it to res json
 =========================> add commit create dummy get users pagination push
+-request.rest
+pass this as pagination ?page=2&limit=5
+to make it easy for client consuming api make next page and previous page
+-server.js
+add next and previous page
+make result var with empty object
+change the variabel slice to results.results
+add variabel results.next
+add variabel results.previous
+parse int var page and limit
+check if we have next or previous page if else
+put variabel results.next inside if else
+put add variabel results.previous if else
+=========================> add commit add step1 next and previous page push
