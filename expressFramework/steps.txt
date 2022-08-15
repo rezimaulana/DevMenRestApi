@@ -106,3 +106,10 @@ passing it to post route user
 -server.js
 express didnt allow to access firstName body by default so we need to use middleware called app.use(express.urlencoded())
 =========================> add commit parsing from/json data 1 push
+-routes/user.js
+create var on post route firstName to validate
+simulate if else dummy
+remove local variabel on get users form
+-server.js
+allow server to pass json express.json
+=========================> add commit parsing from/json data 2 push
