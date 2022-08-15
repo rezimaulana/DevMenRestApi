@@ -13,3 +13,14 @@ create app variavel to use express library
 app listen at 5000
 create dummy get / route
 =========================> add commit testing route push
+-server.js
+set view engine
+create views folder
+create index.ejs
+-views/index.ejs
+add ! boilerplate html
+change title to blog
+add body dummy test
+-server.js
+change response dummy get / route to render html
+=========================> add commit testing ejs push
