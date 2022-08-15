@@ -113,3 +113,6 @@ remove local variabel on get users form
 -server.js
 allow server to pass json express.json
 =========================> add commit parsing from/json data 2 push
+-routes/user.js
+add console.log(req.query.name) on router get /
+=========================> add commit parse query params push
