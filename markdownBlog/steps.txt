@@ -49,3 +49,17 @@ add h1 class
 and make class to make space betweeen h1 and button
 create button with href to new articles and class btn green
 =========================> add commit edit view index push
+-views/index.ejs
+get articles
+<%= is mean output to the page
+add for each function
+with for each have div card mt-4
+-server.js
+add var for second articles
+change document createdAt to new date if we didnt convert to locale date string it will be long date format
+-views/index.ejs
+add class card body inside div body
+add class card title in h4 and move dynamic data article there
+add div class card subtitle for date add dynamic data created at there and convert it tolocale date string
+add div class card text inside card body add dynamic data description there
+=========================> add commit edit view index 2 push
