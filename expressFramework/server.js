@@ -13,4 +13,8 @@ app.get('/', (req, res) => {
     res.render('index', { date: 'tanggal' })
 })
 
+const userRouter = require('./routes/users.js')
+
+app.use('/users', userRouter)
+
 app.listen(3000)

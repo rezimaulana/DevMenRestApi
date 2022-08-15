@@ -36,3 +36,18 @@ pass date to view
 output date
 set how to view local which not defined
 =========================> add commit rendering html push
+-server.js
+create get users route
+create get users new route
+create folder routes
+copy users route
+-routes/users.js
+pull express library
+create route variabel
+replace app with router
+remove /users route
+module exports users route
+-server.js
+pull users route library
+use users route library with parent /users
+=========================> add commit routers push
