@@ -95,3 +95,14 @@ create test.html
 put some dummy text
 this public folder is to access assets css js etc
 =========================> add commit rendering static files push
+-routes/user.js
+create render to get new users from
+create folder and file users on views
+-views/users/new.ejs
+copy paste precode with local variabel for dynamic data
+-routes/user.js
+add users data dynamic param
+passing it to post route user
+-server.js
+express didnt allow to access firstName body by default so we need to use middleware called app.use(express.urlencoded())
+=========================> add commit parsing from/json data 1 push
