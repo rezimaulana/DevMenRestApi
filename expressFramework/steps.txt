@@ -11,3 +11,6 @@ pull express library
 set up app variabel
 add port 3000
 =========================> add commit server setup push
+create app get and add 2 params
+send response
+=========================> add commit basic routing push
