@@ -51,3 +51,8 @@ module exports users route
 pull users route library
 use users route library with parent /users
 =========================> add commit routers push
+-routes/users.js
+create post / route
+create get users by id route
+with params :id and access with req.params.id
+=========================> add commit advanced routing push
