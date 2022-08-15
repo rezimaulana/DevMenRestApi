@@ -1,0 +1,9 @@
+Introduction to Node.js 9
+--------------------------
+npm init -y
+npm i express mongoose ejs
+npm i --save-dev nodemon
+remove test script and add dev script "test": "echo \"Error: no test specified\" && exit 1" -> "devStart": "nodemon server.js"
+create server.js
+add gitignore node modules env
+=========================> add commit setup server push
