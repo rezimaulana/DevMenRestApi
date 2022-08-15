@@ -63,3 +63,15 @@ add class card title in h4 and move dynamic data article there
 add div class card subtitle for date add dynamic data created at there and convert it tolocale date string
 add div class card text inside card body add dynamic data description there
 =========================> add commit edit view index 2 push
+-routes/articles.js
+change / to /new route
+create articles folder
+create new.ejs
+move index.ejs inside articles folder
+-server.js
+change res render index to articles/index
+-views/articles/new.ejs
+copy everything from views/articles/index.ejs
+delete everything except container
+test put some dummy text
+=========================> add commit create view new articles push
