@@ -64,3 +64,13 @@ create chain routing get put delete users by id with dynamic params (router.rout
 test router.param middleware, that will executed before it reach the router.route
 test middlewaware on get users by id route
 =========================> add commit advanced routing 2 push
+-server.js
+create middleware function to logger
+app use middleware function
+middleware run from top to the bottom
+always define it at the top of the page if you want to run middleware everywhere
+but you can use it individualy if you didnt want to define it
+you can run 3 or more middleware on same route
+=========================> add commit middleware 1 push
+-routes/users.js
+move middleware from server js
