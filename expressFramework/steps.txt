@@ -7,3 +7,7 @@ remove test script and add dev script "test": "echo \"Error: no test specified\"
 create server.js
 add gitignore node modules env
 =========================> add commit project setup push
+pull express library
+set up app variabel
+add port 3000
+=========================> add commit server setup push
