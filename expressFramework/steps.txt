@@ -54,5 +54,13 @@ use users route library with parent /users
 -routes/users.js
 create post / route
 create get users by id route
-with params :id and access with req.params.id
+with dynamic params :id and access with req.params.id
 =========================> add commit advanced routing push
+put the dynamic params route at the very bottom because it can replace other route as id
+-routes/users.js
+create put users by id with dynamic params
+create delete users by id with dynamic params
+create chain routing get put delete users by id with dynamic params (router.route)
+test router.param middleware, that will executed before it reach the router.route
+test middlewaware on get users by id route
+=========================> add commit advanced routing 2 push
