@@ -7,3 +7,9 @@ remove test script and add dev script "test": "echo \"Error: no test specified\"
 create server.js
 add gitignore node modules env
 =========================> add commit setup server push
+-server.js
+pull express library
+create app variavel to use express library
+app listen at 5000
+create dummy get / route
+=========================> add commit testing route push
