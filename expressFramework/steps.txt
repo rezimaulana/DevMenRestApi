@@ -7,12 +7,32 @@ remove test script and add dev script "test": "echo \"Error: no test specified\"
 create server.js
 add gitignore node modules env
 =========================> add commit project setup push
+-server.js
 pull express library
 set up app variabel
 add port 3000
 =========================> add commit server setup push
+-server.js
 create app get and add 2 params
 send response
 =========================> add commit basic routing push
+-server.js
 testing sending data
 =========================> add commit sending data push
+-server.js
+add res render index at / get route
+by default all of view files are going to live inside of the folder called views
+create views folder
+create index
+you can pass data to views
+add views engine
+npm i ejs
+add app set view engine ejs
+rename to index ejs
+add second params to render index which is an object
+add date
+pass date to view
+-views/index.ejs
+output date
+set how to view local which not defined
+=========================> add commit rendering html push
