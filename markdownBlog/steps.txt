@@ -38,3 +38,14 @@ use articlerouter at /articles
 -routes/articles.js
 create dummy get articles route
 =========================> add commit dummy articles push
+-server.js
+create dummy var articles
+pass dynamic params to get / route
+-views/index.ejs
+pass data from dynamic params
+add bootstrap css
+add div container
+add h1 class
+and make class to make space betweeen h1 and button
+create button with href to new articles and class btn green
+=========================> add commit edit view index push
