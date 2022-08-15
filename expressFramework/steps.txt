@@ -79,3 +79,19 @@ remove middleware function
 move middleware from server js
 use it with router.use
 =========================> add commit middleware 2 push
+-views/index.ejs
+remove dynamic variabel
+-server.js
+remove parsing dynamic variabel to index.ejs
+create public folder
+-views/index.ejs
+rename index.html
+move to public folder
+-server.js
+declare usage of public folder
+create public/css folder
+create test.html
+-public/css/test.html
+put some dummy text
+this public folder is to access assets css js etc
+=========================> add commit rendering static files push

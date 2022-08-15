@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
 
+app.use(express.static('public'))
+
 app.set('view engine', 'ejs')
 //app.use(logger)
 
@@ -11,7 +13,7 @@ app.get('/', (req, res) => {
     res.json({message: 'Error'})
     res.download('server.js')
     */
-    res.render('index', { date: 'tanggal' })
+    res.render('index')
 })
 
 const userRouter = require('./routes/users.js')
