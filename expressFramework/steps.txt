@@ -72,5 +72,10 @@ always define it at the top of the page if you want to run middleware everywhere
 but you can use it individualy if you didnt want to define it
 you can run 3 or more middleware on same route
 =========================> add commit middleware 1 push
+-server.js
+remove logger middleware from get / route
+remove middleware function
 -routes/users.js
 move middleware from server js
+use it with router.use
+=========================> add commit middleware 2 push
