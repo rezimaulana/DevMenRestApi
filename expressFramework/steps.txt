@@ -1,0 +1,9 @@
+Introduction to Node.js 11
+--------------------------
+npm init -y
+npm i express
+npm i --save-dev nodemon
+remove test script and add dev script "test": "echo \"Error: no test specified\" && exit 1" -> "devStart": "nodemon server.js"
+create server.js
+add gitignore node modules env
+=========================> add commit project setup push
