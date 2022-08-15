@@ -24,3 +24,17 @@ add body dummy test
 -server.js
 change response dummy get / route to render html
 =========================> add commit testing ejs push
+-views/index.ejs
+add <h1></h1>
+create routes folder
+create articles.js
+-routes/articles.js
+pull express library
+pull router express library and call it
+modele export as router
+-server.js
+create const var to pull router articles
+use articlerouter at /articles
+-routes/articles.js
+create dummy get articles route
+=========================> add commit dummy articles push
