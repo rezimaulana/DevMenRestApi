@@ -112,3 +112,10 @@ create variabel db for connection
 create debug for fail/success connection
 create debug for listen port
 =========================> add commit database configured push
+create models folder
+create articles.js
+-models/articles.js
+pull mongoose library
+create variabel to make schema
+build schema
+=========================> add commit create schema push
