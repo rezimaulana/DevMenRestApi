@@ -163,3 +163,12 @@ add div for date
 add 2 button for all article and edit
 show dummy markdown
 =========================> add commit create get route by id push
+-server.js
+remove dummy data in index
+pull out article schema
+create var to store data article and find
+convert to async await
+sort find by desc
+-views/articles/index.ejs
+create show button
+=========================> add commit create view index content push
