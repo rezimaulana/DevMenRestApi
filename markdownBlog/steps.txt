@@ -148,3 +148,18 @@ specify markdwon as required
 add value article : new Article() at get /new route
 router post / change const to let
 =========================> add commit create post route 2 push
+-routes/articles.js
+create router get id dummy request
+create var for router get id
+render page view
+convert router get id for async
+create if else to check article was there
+create article view show
+-views/articles/show.ejs
+copy paste new.ejs
+delete all except container
+add h1 for article title with dynamic params
+add div for date
+add 2 button for all article and edit
+show dummy markdown
+=========================> add commit create get route by id push
