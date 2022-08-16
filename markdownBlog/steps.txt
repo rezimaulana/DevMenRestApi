@@ -96,3 +96,19 @@ copy to make 3 input
 use textarea emmet to make text area with class form control
 create cancel button with href to index
 =========================> add commit create view new articles 2 push
+-server.js
+pull mongoose library
+app use library
+npm i --save-dev dotenv
+create .env
+-.env
+link db
+port
+-server.js
+pull dotenv library
+add port variabel
+connect mongodb
+create variabel db for connection
+create debug for fail/success connection
+create debug for listen port
+=========================> add commit database configured push
