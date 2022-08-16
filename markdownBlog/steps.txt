@@ -75,3 +75,24 @@ copy everything from views/articles/index.ejs
 delete everything except container
 test put some dummy text
 =========================> add commit create view new articles push
+-views/articles/index.ejs
+fix href from artices to articles
+-views/articles/new.ejs
+add h1 class header with mb 4
+create form post to submit article
+-routes/articles.js
+create post to route /
+create partial view to separate multiple form uses
+-views/articles/new.ejs
+call partial view with <%- is to render html
+-views/articles/_formFields.ejs
+use this emmet for create div form group .form-group
+create label
+create input from with emet "input"
+add type name id class(bootstrap)
+mark as required
+create button with type submit add bootstrap class btn primary
+copy to make 3 input
+use textarea emmet to make text area with class form control
+create cancel button with href to index
+=========================> add commit create view new articles 2 push
