@@ -119,3 +119,19 @@ pull mongoose library
 create variabel to make schema
 build schema
 =========================> add commit create schema push
+-models/articles.js
+module exports schema
+rename to article
+-routes/articles.js
+export blog articles to variabel
+-server.js
+to access page form app use urlencoded
+-routes/articles.js
+create post / route
+add var for object article
+save it and then change function to async
+await articel async save
+wrap it inside try catch
+update article var with await
+redirect to get /article/id
+=========================> add commit create post route push

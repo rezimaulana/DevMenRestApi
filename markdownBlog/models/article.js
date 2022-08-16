@@ -7,7 +7,7 @@ const articleSchema = new mongoose.Schema({
     },
     description: {
         type: String
-    }
+    },
     markdown: {
         type: String,
         required: true
@@ -18,3 +18,5 @@ const articleSchema = new mongoose.Schema({
         // default: () => Date.now()
     }
 })
+
+module.exports = mongoose.model('blogArticles', articleSchema)
