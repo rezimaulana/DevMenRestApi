@@ -12,7 +12,6 @@ db.once('open', () => console.log('Connected to Database'))
 
 app.set('view engine', 'ejs')
 
-app.use('/articles', articleRouter)
 app.use(express.urlencoded({ extended: false}))
 
 app.get('/', (req, res) => {
@@ -28,6 +27,8 @@ app.get('/', (req, res) => {
     }]
     res.render('articles/index', {articles: articles})
 })
+
+app.use('/articles', articleRouter)
 
 const PORT = process.env.PORT || 4111;
 app.listen(PORT, () => console.log('Server Started'))

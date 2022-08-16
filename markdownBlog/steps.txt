@@ -135,3 +135,16 @@ wrap it inside try catch
 update article var with await
 redirect to get /article/id
 =========================> add commit create post route push
+-routes/articles.js
+create dummy get /article/id
+catch Error to redirect and pass previous value
+-server.js
+move up articles url encoded upside the app use article
+move app use article to the very bottom
+-views/articles/_formFields.ejs
+insert value to accept previous value
+specify markdwon as required
+-routes/articles.js
+add value article : new Article() at get /new route
+router post / change const to let
+=========================> add commit create post route 2 push
