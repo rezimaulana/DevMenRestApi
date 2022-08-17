@@ -172,3 +172,16 @@ sort find by desc
 -views/articles/index.ejs
 create show button
 =========================> add commit create view index content push
+npm i marked slugify
+create markdown and turn it to html
+sulgify convert title into a url friendly slug
+-models/article.js
+pull marked library
+pull slugify library
+setup slugify column in model
+automatically calculate url every time save to database
+create pre validate function
+change title to slug with lower true and strict true
+call next function
+now we can create a slug from our title every single time we validate a model
+=========================> add commit slugify setup push
