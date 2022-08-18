@@ -195,3 +195,20 @@ change button href to article.slug
 -server.js
 useCreateIndex true on mongoose connect not supported on atlas
 =========================> add commit slugify route setup push
+-routes/articles.js
+create delete route async await
+link only does get
+form only takes allow to post or get
+in order to use delete as a method for our form we need to use library called method override
+npm i method-override
+-server.js
+pull method override library
+app use the library create the string to accept method params from forms
+-view/index.ejs
+when google crawls your site they will clik every href
+when you are using link tag for delete your routes
+every single time google indexes your site they re going to delete everything in your database
+create form method override
+create button
+add class d inline to form
+=========================> add commit create delete articles route push
