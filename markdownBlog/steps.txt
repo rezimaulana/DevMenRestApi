@@ -212,3 +212,27 @@ create form method override
 create button
 add class d inline to form
 =========================> add commit create delete articles route push
+markdown portion were gonna convert this to HTML
+one thing we have to worry about is when we convert our blog markdown to HTML we need to sanitize that html
+so people cant add malicious code into our markdown and actually run javascript on people computers
+we need to make sure we sanitize it otherwise people can just write any HTML they want and itll run properly
+npm i dompurify jsdom
+dompurify allow us to sanitize our html
+that library require us to use jsdom
+for actually render a html inside of nodejs
+node js doesnt really know how html works
+-models/article.js
+pull dompurify library
+pull jsdom library use {} because we only want the JSDOM portion of what this returns
+use it to get only exacly that portion of what we want
+create var dompurify to use and get that window object of js dom
+create new column to sanitze HTML
+add pre validate function of purify
+it convert our markdown to HTML and then purifies that HTML to get ride any malicious code that could be in there
+and to escape all html characters
+-views/index.ejs
+change show markdown to sanitize html
+and use <%- to output raw html instead of a string
+For those having an error "marked is not a function" in the end of the tutorial, the package updated.
+use: marked.parse(this.markdown)  instead of marked(this.markdown)
+=========================> add commit setup markdown dompurify jsdom push
