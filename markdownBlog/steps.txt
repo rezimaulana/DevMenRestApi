@@ -236,3 +236,27 @@ and use <%- to output raw html instead of a string
 For those having an error "marked is not a function" in the end of the tutorial, the package updated.
 use: marked.parse(this.markdown)  instead of marked(this.markdown)
 =========================> add commit setup markdown dompurify jsdom push
+-routes/articles.js
+create edit route copy paste from new route
+change it to async await
+change to /edit/:id
+make var to get findbyid req params id
+render new view and pass the data
+create views edit
+-views/edit.ejs
+copy paste new to there
+change title to edit
+and change action to method override to put
+-router articles.js
+add router put
+add middleware to save article with path var
+change render according to method
+change article variabel
+from new to article, title = 
+delete post route and change it to use middleware
+call next on post route
+copy paste put save and redirect
+-views/index.ejs
+copy paste href / article
+create edit href
+=========================> add commit create edit route and middleware push
