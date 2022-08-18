@@ -185,3 +185,13 @@ change title to slug with lower true and strict true
 call next function
 now we can create a slug from our title every single time we validate a model
 =========================> add commit slugify setup push
+-routes/articles.js
+change params id to slug in route get /
+change await method in route get to find by slug
+change route post / to route slug instead route to id
+change findby id to find and then to findone because it only wants to return one not an array
+-view/index.ejs
+change button href to article.slug
+-server.js
+useCreateIndex true on mongoose connect not supported on atlas
+=========================> add commit slugify route setup push
